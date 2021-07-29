@@ -6,12 +6,14 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:layout_columnSpan="4"
-    android:gravity="center">
+    android:gravity="center"
+    android:background="@drawable/rock_stone">
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center">
+        android:gravity="center"
+        >
 
         <Button
             android:id="@+id/button_1"
@@ -80,6 +82,7 @@
         android:layout_height="match_parent"
         android:gravity="center">
 
+
         <Button
             android:id="@+id/button_0"
             android:text="0"
@@ -96,8 +99,6 @@
             android:text="/"
             />
         ></TableRow>
-
-
 
 
 
