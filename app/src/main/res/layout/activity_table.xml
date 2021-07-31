@@ -9,6 +9,24 @@
     android:gravity="center"
     android:background="@drawable/rock_stone">
 
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="4"
+            android:background="@color/white"
+            android:text=""
+            android:textAlignment="viewEnd" />
+    </TableRow>
+
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -18,17 +36,17 @@
         <Button
             android:id="@+id/button_1"
             android:text="1"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_2"
             android:text="2"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_3"
             android:text="3"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_sum"
@@ -44,17 +62,17 @@
         <Button
             android:id="@+id/button_4"
             android:text="4"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_5"
             android:text="5"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_6"
             android:text="6"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_minus"
@@ -69,17 +87,17 @@
         <Button
             android:id="@+id/button_7"
             android:text="7"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_8"
             android:text="8"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_9"
             android:text="9"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_multiplication"
@@ -94,18 +112,18 @@
         <Button
             android:id="@+id/button_clear"
             android:text="AC"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
 
         <Button
             android:id="@+id/button_0"
             android:text="0"
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
         <Button
             android:id="@+id/button_total"
             android:text="="
-            android:layout_marginRight="3dp"
+            android:layout_marginRight="@dimen/marginForButton"
             />
 
             />
